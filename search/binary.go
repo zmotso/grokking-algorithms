@@ -1,6 +1,8 @@
 package search
 
-import "errors"
+import (
+	"errors"
+)
 
 var ErrNotFount = errors.New("not found in slice")
 
